@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/black</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/image</item>
+        <item name="windowSplashScreenAnimationDuration">1500</item>
+        <item name="postSplashScreenTheme">@style/Theme.ToMillis</item>
+        <!-- Cambiar color de la barra de estado -->
+        <item name="android:statusBarColor">@color/black</item>
+        <!-- Cambiar color de la barra de navegación -->
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ToMillis" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Cambiar color de la barra de estado -->
+        <item name="android:statusBarColor">@color/black</item>
+        <!-- Cambiar color de la barra de navegación -->
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+</resources>
