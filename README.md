@@ -1,58 +1,58 @@
 
 # ToMillis
 
-**ToMillis** es una aplicación que te ayuda a convertir unidades de tiempo en milisegundos de forma rápida y eficiente. 
+**ToMillis** is an application that helps you convert time units into milliseconds quickly and efficiently.
 
-[![Descargar en Google Play](https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg)](https://play.google.com/store/apps/details?id=com.tomillis)
+[![Download on Google Play](https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg)](https://play.google.com/store/apps/details?id=com.tomillis)
 
 ---
 
-## Capturas de pantalla
+## Screenshots
 
 <img src="images/screen_one.webp" alt="Capture one" width="300"/> <img src="images/screen_two.webp" alt="Capture two" width="300"/>
 
 ---
 
-## Características
+## Features
 
-- Interfaz intuitiva para realizar conversiones rápidas.
-- Soporte para versiones anteriores de Android gracias a `coreLibraryDesugaring`.
-- Implementación de Material Design 3.
-- Navegación fluida con Jetpack Compose.
+- Intuitive interface for quick conversions.
+- Support for older Android versions using `coreLibraryDesugaring`.
+- Implementation of Material Design 3.
+- Smooth navigation with Jetpack Compose.
 
 ---
 
-## Dependencias
+## Dependencies
 
-El proyecto utiliza las siguientes dependencias para un desarrollo moderno y eficiente:
+The project uses the following dependencies for modern and efficient development:
 
 ### Splash Screen
-Para una experiencia de inicio agradable:
+For a pleasant startup experience:
 ```gradle
 implementation("androidx.core:core-splashscreen:1.0.0")
 ```
 
 ### Dagger Hilt
-Para la inyección de dependencias:
+For dependency injection:
 ```gradle
 implementation("com.google.dagger:hilt-android:2.51.1")
 kapt("com.google.dagger:hilt-android-compiler:2.51.1")
 ```
 
-### Navigation con Hilt
-Integración de navegación con Dagger Hilt:
+### Navigation with Hilt
+Integration of navigation with Dagger Hilt:
 ```gradle
 implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
 ```
 
 ### Core Library Desugaring
-Para soporte de API modernas en versiones más antiguas de Android:
+Support for modern APIs in older Android versions:
 ```gradle
 coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.4")
 ```
 
-### Jetpack Compose y Material 3
-Para crear la interfaz de usuario:
+### Jetpack Compose and Material 3
+To build the user interface:
 ```gradle
 implementation(libs.androidx.core.ktx)
 implementation(libs.androidx.lifecycle.runtime.ktx)
@@ -65,7 +65,7 @@ implementation(libs.androidx.material3)
 ```
 
 ### Testing
-Configuración para pruebas unitarias y de interfaz:
+Configuration for unit and UI testing:
 ```gradle
 testImplementation(libs.junit)
 androidTestImplementation(libs.androidx.junit)
@@ -78,17 +78,18 @@ debugImplementation(libs.androidx.ui.test.manifest)
 
 ---
 
-## Arquitectura
+## How to Contribute
 
-Clean Arquitecture
+If you want to contribute to this project, create a *fork*, make your changes, and open a *pull request*. Your contributions are welcome!
 
 ---
 
-## Descarga la aplicación
+## Download the App
 
-Haz clic en el botón para descargar la aplicación desde Google Play:
+Click the button to download the app from Google Play:
 
-[![Descargar en Google Play](https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg)](https://play.google.com/store/apps/details?id=com.tomillis)
+[![Download on Google Play](https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg)](https://play.google.com/store/apps/details?id=com.tomillis)
+
 
 ## Developer
 
